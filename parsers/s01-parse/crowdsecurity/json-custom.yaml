@@ -1,24 +1,24 @@
-filter: "evt.Parsed.program == 'customapp-log'"
-onsuccess: continue
-#debug: true
-name: crowdsecurity/customapp-json-extract
-description: "Parse customapp applicative logs"
-statics:
-  - meta: log_type
-    value: customapp_parsable
-  #extract the 'log' field from the json blob
-  - parsed: reallog
-    expression: JsonExtract(evt.Line.Raw, "log")
----
-filter: "evt.Parsed.program == 'customapp-log' && evt.Meta.log_type == 'customapp_parsable'"
+# filter: "evt.Parsed.program == 'fluentd'"
+# onsuccess: continue
+# #debug: true
+# name: crowdsecurity/customapp-json-extract
+# description: "Parse customapp applicative logs"
+# statics:
+#   - meta: log_type
+#     value: customapp_parsable
+#   #extract the 'log' field from the json blob
+#   - parsed: reallog
+#     expression: JsonExtract(evt.Line.Raw, "log")
+# ---
+filter: "evt.Parsed.program == 'fluentd'"
 onsuccess: next_stage
-#debug: true
+debug: true
 name: crowdsecurity/customapp-log-parse
 description: "Parse customapp applicative logs"
 #grok the log we extracted from json
 grok:
-  pattern: ^\[%{DATA:time}\] \[%{DATA}\] \[%{DATA}\] \[%{DATA}\] method=%{DATA:method} path=%{DATA:request} format=%{DATA} controller=%{DATA:controller} action=%{DATA:action} status=%{NUMBER:status} duration=%{DATA} view=%{DATA} db=%{DATA} params=%{DATA:user_blob} pid=%{NUMBER:pid} remote_ip=%{IPORHOST:remote_addr} cf_connection_ip= true_client_ip=%{IPORHOST:true_remote_addr} teezily_remote_ip=%{IPORHOST:customapp_remote_addr}
-  apply_on: reallog
+  pattern: ^log:\[%{DATA:time}\] \[%{DATA}\] \[%{DATA}\] \[%{DATA}\] method=%{DATA:method} path=%{DATA:request} format=%{DATA} controller=%{DATA:controller} action=%{DATA:action} status=%{NUMBER:status} duration=%{DATA} view=%{DATA} db=%{DATA} params=%{DATA:user_blob} pid=%{NUMBER:pid} remote_ip=%{IPORHOST:remote_addr} cf_connection_ip= true_client_ip=%{IPORHOST:true_remote_addr} teezily_remote_ip=%{IPORHOST:customapp_remote_addr}
+  apply_on: message
 statics:
   #indicate where is time so that we can work with "cold logs" as well
   - target: evt.StrTime
