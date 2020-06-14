@@ -1,0 +1,27 @@
+type: leaky
+#debug: true
+name: crowdsecurity/http-stuffing
+description: "Detect site scanning/probing from a single ip"
+filter: "evt.Parsed.program == 'customapp-log' && evt.Meta.http_path == '/cart/processout/invoices'"
+groupby: "evt.Meta.source_ip"
+capacity: 2
+leakspeed: "20s"
+blackhole: 5m
+labels:
+ service: http
+ type: scan
+ remediation: true
+---
+type: leaky
+#debug: true
+name: crowdsecurity/http-stuffing-strong
+description: "Detect site scanning/probing from a single ip"
+filter: "evt.Parsed.program == 'customapp-log' && evt.Meta.http_path == '/cart/processout/invoices'"
+groupby: "evt.Meta.source_ip"
+capacity: 4
+leakspeed: "20s"
+blackhole: 5m
+labels:
+ service: http
+ type: scan
+ remediation: true
