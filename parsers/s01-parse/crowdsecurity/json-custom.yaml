@@ -17,7 +17,7 @@ name: crowdsecurity/customapp-log-parse
 description: "Parse customapp applicative logs"
 #grok the log we extracted from json
 grok:
-  pattern: ^\[%{DATA:time}\] \[%{DATA}\] \[%{DATA}\] \[%{DATA}\] method=%{DATA:method} path=%{DATA:request} format=%{DATA} controller=%{DATA:controller} action=%{DATA:action} status=%{NUMBER:status} duration=%{DATA} view=%{DATA} db=%{DATA} params=%{DATA:user_blob} pid=%{NUMBER:pid} remote_ip=%{IPORHOST:remote_addr} cf_connection_ip= true_client_ip=%{IPORHOST:true_remote_addr} customapp_remote_ip=%{IPORHOST:customapp_remote_addr}
+  pattern: ^\[%{DATA:time}\] \[%{DATA}\] \[%{DATA}\] \[%{DATA}\] method=%{DATA:method} path=%{DATA:request} format=%{DATA} controller=%{DATA:controller} action=%{DATA:action} status=%{NUMBER:status} duration=%{DATA} view=%{DATA} db=%{DATA} params=%{DATA:user_blob} pid=%{NUMBER:pid} remote_ip=%{IPORHOST:remote_addr} cf_connection_ip= true_client_ip=%{IPORHOST:true_remote_addr} teezily_remote_ip=%{IPORHOST:customapp_remote_addr}
   apply_on: reallog
 statics:
   #indicate where is time so that we can work with "cold logs" as well
