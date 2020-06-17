@@ -2,7 +2,7 @@ type: leaky
 #debug: true
 name: crowdsecurity/http-stuffing
 description: "Detect site scanning/probing from a single ip"
-filter: "evt.Parsed.program == 'customapp-log' && evt.Meta.http_path == '/cart/processout/invoices'"
+filter: "evt.Parsed.program == 'fluentd' && evt.Meta.http_path == '/cart/processout/invoices'"
 groupby: "evt.Meta.source_ip"
 capacity: 2
 leakspeed: "20s"
@@ -16,10 +16,52 @@ type: leaky
 #debug: true
 name: crowdsecurity/http-stuffing-strong
 description: "Detect site scanning/probing from a single ip"
-filter: "evt.Parsed.program == 'customapp-log' && evt.Meta.http_path == '/cart/processout/invoices'"
+filter: "evt.Parsed.program == 'fluentd' && evt.Meta.http_path == '/cart/processout/invoices'"
 groupby: "evt.Meta.source_ip"
 capacity: 4
 leakspeed: "20s"
+blackhole: 5m
+labels:
+ service: http
+ type: scan
+ remediation: true
+---
+type: trigger
+format: 2.0
+#debug: true
+name: crowdsecurity/http-stuffing-trigger-customerdata-specific
+description: "Detect CC stuffing from customer_data"
+filter: evt.Parsed.program == 'fluentd' && evt.Meta.http_path == '/cart/processout/invoices'  && evt.Parsed.user_blob contains '"first_name"=>"Joh' && evt.Parsed.user_blob contains '"last_name"=>"Gervai'
+groupby: "evt.Meta.source_ip"
+blackhole: 5m
+labels:
+ service: http
+ type: scan
+ remediation: true
+---
+type: leaky
+#debug: true
+name: crowdsecurity/http-rate-limit-distinct
+description: "Detect distinct-page hammering"
+filter: "evt.Parsed.program == 'fluentd' && evt.Meta.http_path == '/cart/processout/invoices'"
+groupby: "evt.Meta.source_ip"
+distinct: evt.Meta.http_path
+capacity: 20
+leakspeed: "3s"
+blackhole: 5m
+labels:
+ service: http
+ type: scan
+ remediation: true
+---
+type: leaky
+#debug: true
+name: crowdsecurity/http-rate-limit-singlepage
+description: "Detect distinct-page hammering"
+filter: "evt.Parsed.program == 'fluentd' && evt.Meta.http_path == '/cart/processout/invoices'"
+groupby: "evt.Meta.source_ip"
+capacity: 20
+leakspeed: "3s"
 blackhole: 5m
 labels:
  service: http
