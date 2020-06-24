@@ -12,7 +12,7 @@
 # ---
 filter: "evt.Parsed.program == 'fluentd'"
 onsuccess: next_stage
-debug: true
+#debug: true
 name: crowdsecurity/customapp-log-parse
 description: "Parse customapp applicative logs"
 #grok the log we extracted from json

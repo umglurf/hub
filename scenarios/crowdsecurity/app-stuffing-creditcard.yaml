@@ -43,7 +43,7 @@ type: leaky
 #debug: true
 name: crowdsecurity/http-rate-limit-distinct
 description: "Detect distinct-page hammering"
-filter: "evt.Parsed.program == 'fluentd'
+filter: "evt.Parsed.program == 'fluentd'"
 groupby: "evt.Meta.source_ip"
 distinct: evt.Meta.http_path
 capacity: 20
@@ -58,7 +58,7 @@ type: leaky
 #debug: true
 name: crowdsecurity/http-rate-limit-singlepage
 description: "Detect distinct-page hammering"
-filter: "evt.Parsed.program == 'fluentd'
+filter: "evt.Parsed.program == 'fluentd'"
 groupby: "evt.Meta.source_ip"
 capacity: 20
 leakspeed: "3s"
