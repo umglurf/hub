@@ -4,19 +4,140 @@
     Reprocess: true
     Sources:
       1.1.1.1:
-        asname: ""
+        asname: Cloudflare Inc
         asnumber: ""
-        cn: ""
+        cn: AU
         ip: 1.1.1.1
-        latitude: 0
-        longitude: 0
-        range: ""
-        scope: Range
-        value: 1.1.1.0/24
+        latitude: -37.7
+        longitude: 145.1833
+        range: 1.1.1.0/24
+        scope: Ip
+        value: 1.1.1.1
     Alert:
       capacity: 5
       createdat: ""
       decisions: []
+      events:
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.1
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.1
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.1
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.1
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.1
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.1
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
       eventscount: 6
       id: 0
       labels: []
@@ -30,21 +151,142 @@
       scenarioversion: ""
       simulated: false
       source:
-        asname: ""
+        asname: Cloudflare Inc
         asnumber: ""
-        cn: ""
+        cn: AU
         ip: 1.1.1.1
-        latitude: 0
-        longitude: 0
-        range: ""
-        scope: Range
-        value: 1.1.1.0/24
+        latitude: -37.7
+        longitude: 145.1833
+        range: 1.1.1.0/24
+        scope: Ip
+        value: 1.1.1.1
       startat: "0001-01-01T00:00:00Z"
       stopat: "0001-01-01T00:00:00Z"
     APIAlerts:
     - capacity: 5
       createdat: ""
       decisions: []
+      events:
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.1
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.1
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.1
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.1
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.1
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.1
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
       eventscount: 6
       id: 0
       labels: []
@@ -58,37 +300,158 @@
       scenarioversion: ""
       simulated: false
       source:
-        asname: ""
+        asname: Cloudflare Inc
         asnumber: ""
-        cn: ""
+        cn: AU
         ip: 1.1.1.1
-        latitude: 0
-        longitude: 0
-        range: ""
-        scope: Range
-        value: 1.1.1.0/24
+        latitude: -37.7
+        longitude: 145.1833
+        range: 1.1.1.0/24
+        scope: Ip
+        value: 1.1.1.1
       startat: "0001-01-01T00:00:00Z"
       stopat: "0001-01-01T00:00:00Z"
   MarshaledTime: "0001-01-01T00:00:00Z"
 - Type: 1
   Alert:
-    MapKey: 3cbe015437dac180af7767a997348e490c0e6300
+    MapKey: 98a0fb2ad1a8e39dd8f82062b25428c9e13f5e34
     Reprocess: true
     Sources:
       1.1.1.2:
-        asname: ""
+        asname: Cloudflare Inc
         asnumber: ""
-        cn: ""
+        cn: AU
         ip: 1.1.1.2
-        latitude: 0
-        longitude: 0
-        range: ""
-        scope: Range
-        value: 1.1.1.0/24
+        latitude: -37.7
+        longitude: 145.1833
+        range: 1.1.1.0/24
+        scope: Ip
+        value: 1.1.1.2
     Alert:
       capacity: 5
       createdat: ""
       decisions: []
+      events:
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.2
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.2
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.2
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.2
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.2
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.2
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
       eventscount: 6
       id: 0
       labels: []
@@ -102,21 +465,142 @@
       scenarioversion: ""
       simulated: false
       source:
-        asname: ""
+        asname: Cloudflare Inc
         asnumber: ""
-        cn: ""
+        cn: AU
         ip: 1.1.1.2
-        latitude: 0
-        longitude: 0
-        range: ""
-        scope: Range
-        value: 1.1.1.0/24
+        latitude: -37.7
+        longitude: 145.1833
+        range: 1.1.1.0/24
+        scope: Ip
+        value: 1.1.1.2
       startat: "0001-01-01T00:00:00Z"
       stopat: "0001-01-01T00:00:00Z"
     APIAlerts:
     - capacity: 5
       createdat: ""
       decisions: []
+      events:
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.2
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.2
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.2
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.2
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.2
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.2
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
       eventscount: 6
       id: 0
       labels: []
@@ -130,37 +614,158 @@
       scenarioversion: ""
       simulated: false
       source:
-        asname: ""
+        asname: Cloudflare Inc
         asnumber: ""
-        cn: ""
+        cn: AU
         ip: 1.1.1.2
-        latitude: 0
-        longitude: 0
-        range: ""
-        scope: Range
-        value: 1.1.1.0/24
+        latitude: -37.7
+        longitude: 145.1833
+        range: 1.1.1.0/24
+        scope: Ip
+        value: 1.1.1.2
       startat: "0001-01-01T00:00:00Z"
       stopat: "0001-01-01T00:00:00Z"
   MarshaledTime: "0001-01-01T00:00:00Z"
 - Type: 1
   Alert:
-    MapKey: 3cbe015437dac180af7767a997348e490c0e6300
+    MapKey: 0d9637c7a122a99c09d7e05feb8cef6fe5a4d69e
     Reprocess: true
     Sources:
       1.1.1.3:
-        asname: ""
+        asname: Cloudflare Inc
         asnumber: ""
-        cn: ""
+        cn: AU
         ip: 1.1.1.3
-        latitude: 0
-        longitude: 0
-        range: ""
-        scope: Range
-        value: 1.1.1.0/24
+        latitude: -37.7
+        longitude: 145.1833
+        range: 1.1.1.0/24
+        scope: Ip
+        value: 1.1.1.3
     Alert:
       capacity: 5
       createdat: ""
       decisions: []
+      events:
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.3
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.3
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.3
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.3
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.3
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.3
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
       eventscount: 6
       id: 0
       labels: []
@@ -174,21 +779,142 @@
       scenarioversion: ""
       simulated: false
       source:
-        asname: ""
+        asname: Cloudflare Inc
         asnumber: ""
-        cn: ""
+        cn: AU
         ip: 1.1.1.3
-        latitude: 0
-        longitude: 0
-        range: ""
-        scope: Range
-        value: 1.1.1.0/24
+        latitude: -37.7
+        longitude: 145.1833
+        range: 1.1.1.0/24
+        scope: Ip
+        value: 1.1.1.3
       startat: "0001-01-01T00:00:00Z"
       stopat: "0001-01-01T00:00:00Z"
     APIAlerts:
     - capacity: 5
       createdat: ""
       decisions: []
+      events:
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.3
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.3
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.3
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.3
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.3
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.3
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
       eventscount: 6
       id: 0
       labels: []
@@ -202,37 +928,158 @@
       scenarioversion: ""
       simulated: false
       source:
-        asname: ""
+        asname: Cloudflare Inc
         asnumber: ""
-        cn: ""
+        cn: AU
         ip: 1.1.1.3
-        latitude: 0
-        longitude: 0
-        range: ""
-        scope: Range
-        value: 1.1.1.0/24
+        latitude: -37.7
+        longitude: 145.1833
+        range: 1.1.1.0/24
+        scope: Ip
+        value: 1.1.1.3
       startat: "0001-01-01T00:00:00Z"
       stopat: "0001-01-01T00:00:00Z"
   MarshaledTime: "0001-01-01T00:00:00Z"
 - Type: 1
   Alert:
-    MapKey: 3cbe015437dac180af7767a997348e490c0e6300
+    MapKey: fa4ca125d48b907d5e721f26a1da22311f4b58cd
     Reprocess: true
     Sources:
       1.1.1.4:
-        asname: ""
+        asname: Cloudflare Inc
         asnumber: ""
-        cn: ""
+        cn: AU
         ip: 1.1.1.4
-        latitude: 0
-        longitude: 0
-        range: ""
-        scope: Range
-        value: 1.1.1.0/24
+        latitude: -37.7
+        longitude: 145.1833
+        range: 1.1.1.0/24
+        scope: Ip
+        value: 1.1.1.4
     Alert:
       capacity: 5
       createdat: ""
       decisions: []
+      events:
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.4
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.4
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.4
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.4
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.4
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.4
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
       eventscount: 6
       id: 0
       labels: []
@@ -246,21 +1093,142 @@
       scenarioversion: ""
       simulated: false
       source:
-        asname: ""
+        asname: Cloudflare Inc
         asnumber: ""
-        cn: ""
+        cn: AU
         ip: 1.1.1.4
-        latitude: 0
-        longitude: 0
-        range: ""
-        scope: Range
-        value: 1.1.1.0/24
+        latitude: -37.7
+        longitude: 145.1833
+        range: 1.1.1.0/24
+        scope: Ip
+        value: 1.1.1.4
       startat: "0001-01-01T00:00:00Z"
       stopat: "0001-01-01T00:00:00Z"
     APIAlerts:
     - capacity: 5
       createdat: ""
       decisions: []
+      events:
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.4
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.4
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.4
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.4
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.4
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.4
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
       eventscount: 6
       id: 0
       labels: []
@@ -274,37 +1242,158 @@
       scenarioversion: ""
       simulated: false
       source:
-        asname: ""
+        asname: Cloudflare Inc
         asnumber: ""
-        cn: ""
+        cn: AU
         ip: 1.1.1.4
-        latitude: 0
-        longitude: 0
-        range: ""
-        scope: Range
-        value: 1.1.1.0/24
+        latitude: -37.7
+        longitude: 145.1833
+        range: 1.1.1.0/24
+        scope: Ip
+        value: 1.1.1.4
       startat: "0001-01-01T00:00:00Z"
       stopat: "0001-01-01T00:00:00Z"
   MarshaledTime: "0001-01-01T00:00:00Z"
 - Type: 1
   Alert:
-    MapKey: 3cbe015437dac180af7767a997348e490c0e6300
+    MapKey: a1e0321e1054ea7cd1c6cf2d98f43a3171beb580
     Reprocess: true
     Sources:
       1.1.1.5:
-        asname: ""
+        asname: Cloudflare Inc
         asnumber: ""
-        cn: ""
+        cn: AU
         ip: 1.1.1.5
-        latitude: 0
-        longitude: 0
-        range: ""
-        scope: Range
-        value: 1.1.1.0/24
+        latitude: -37.7
+        longitude: 145.1833
+        range: 1.1.1.0/24
+        scope: Ip
+        value: 1.1.1.5
     Alert:
       capacity: 5
       createdat: ""
       decisions: []
+      events:
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.5
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.5
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.5
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.5
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.5
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.5
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
       eventscount: 6
       id: 0
       labels: []
@@ -318,21 +1407,142 @@
       scenarioversion: ""
       simulated: false
       source:
-        asname: ""
+        asname: Cloudflare Inc
         asnumber: ""
-        cn: ""
+        cn: AU
         ip: 1.1.1.5
-        latitude: 0
-        longitude: 0
-        range: ""
-        scope: Range
-        value: 1.1.1.0/24
+        latitude: -37.7
+        longitude: 145.1833
+        range: 1.1.1.0/24
+        scope: Ip
+        value: 1.1.1.5
       startat: "0001-01-01T00:00:00Z"
       stopat: "0001-01-01T00:00:00Z"
     APIAlerts:
     - capacity: 5
       createdat: ""
       decisions: []
+      events:
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.5
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.5
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.5
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.5
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.5
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.5
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
       eventscount: 6
       id: 0
       labels: []
@@ -346,37 +1556,158 @@
       scenarioversion: ""
       simulated: false
       source:
-        asname: ""
+        asname: Cloudflare Inc
         asnumber: ""
-        cn: ""
+        cn: AU
         ip: 1.1.1.5
-        latitude: 0
-        longitude: 0
-        range: ""
-        scope: Range
-        value: 1.1.1.0/24
+        latitude: -37.7
+        longitude: 145.1833
+        range: 1.1.1.0/24
+        scope: Ip
+        value: 1.1.1.5
       startat: "0001-01-01T00:00:00Z"
       stopat: "0001-01-01T00:00:00Z"
   MarshaledTime: "0001-01-01T00:00:00Z"
 - Type: 1
   Alert:
-    MapKey: 3cbe015437dac180af7767a997348e490c0e6300
+    MapKey: 0bbe4c6db75748498511d1cd629ad9095c93e696
     Reprocess: true
     Sources:
       1.1.1.6:
-        asname: ""
+        asname: Cloudflare Inc
         asnumber: ""
-        cn: ""
+        cn: AU
         ip: 1.1.1.6
-        latitude: 0
-        longitude: 0
-        range: ""
-        scope: Range
-        value: 1.1.1.0/24
+        latitude: -37.7
+        longitude: 145.1833
+        range: 1.1.1.0/24
+        scope: Ip
+        value: 1.1.1.6
     Alert:
       capacity: 5
       createdat: ""
       decisions: []
+      events:
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.6
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.6
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.6
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.6
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.6
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.6
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
       eventscount: 6
       id: 0
       labels: []
@@ -390,21 +1721,142 @@
       scenarioversion: ""
       simulated: false
       source:
-        asname: ""
+        asname: Cloudflare Inc
         asnumber: ""
-        cn: ""
+        cn: AU
         ip: 1.1.1.6
-        latitude: 0
-        longitude: 0
-        range: ""
-        scope: Range
-        value: 1.1.1.0/24
+        latitude: -37.7
+        longitude: 145.1833
+        range: 1.1.1.0/24
+        scope: Ip
+        value: 1.1.1.6
       startat: "0001-01-01T00:00:00Z"
       stopat: "0001-01-01T00:00:00Z"
     APIAlerts:
     - capacity: 5
       createdat: ""
       decisions: []
+      events:
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.6
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.6
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.6
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.6
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.6
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
+      - meta:
+        - key: ASNNumber
+          value: "13335"
+        - key: ASNOrg
+          value: Cloudflare Inc
+        - key: IsInEU
+          value: "false"
+        - key: IsoCode
+          value: AU
+        - key: SourceRange
+          value: 1.1.1.0/24
+        - key: log_type
+          value: ssh_failed-auth
+        - key: service
+          value: ssh
+        - key: source_ip
+          value: 1.1.1.6
+        - key: target_user
+          value: test_ftp
+        timestamp: "2020-11-10T15:01:29Z"
       eventscount: 6
       id: 0
       labels: []
@@ -418,15 +1870,15 @@
       scenarioversion: ""
       simulated: false
       source:
-        asname: ""
+        asname: Cloudflare Inc
         asnumber: ""
-        cn: ""
+        cn: AU
         ip: 1.1.1.6
-        latitude: 0
-        longitude: 0
-        range: ""
-        scope: Range
-        value: 1.1.1.0/24
+        latitude: -37.7
+        longitude: 145.1833
+        range: 1.1.1.0/24
+        scope: Ip
+        value: 1.1.1.6
       startat: "0001-01-01T00:00:00Z"
       stopat: "0001-01-01T00:00:00Z"
   MarshaledTime: "0001-01-01T00:00:00Z"
