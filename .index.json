@@ -1101,6 +1101,21 @@
    "author": "crowdsecurity",
    "labels": null
   },
+  "crowdsecurity/opensips-logs": {
+   "path": "parsers/s01-parse/crowdsecurity/opensips-logs.yaml",
+   "stage": "s01-parse",
+   "version": "0.1",
+   "versions": {
+    "0.1": {
+     "digest": "dcd51297d2bcb8ec4a74099f3ecd67c6ed46bf51870c7d6a29e9318ec7f3a80e",
+     "deprecated": false
+    }
+   },
+   "content": "I0RlYyAyMSAyMzowMDoxMiBbMTFdIElOVklURSByZXF1ZXN0IGZyb20gSVAgNDIuNDIuNDIuNDIKI0RlYyAyMSAyMzowMDoxMiBbMTFdIFVua25vd24gU0lQIHJlcXVlc3QgZnJvbSBJUCA0Mi40Mi40Mi40MgojRGVjIDIxIDIzOjAwOjEyIFsxMV0gQmFkIFNJUCByZXF1ZXN0IGZyb20gSVAgNDIuNDIuNDIuNDIKb25zdWNjZXNzOiBuZXh0X3N0YWdlCmZpbHRlcjogImV2dC5QYXJzZWQucHJvZ3JhbSA9PSAnb3BlbnNpcHMnIgpuYW1lOiBjcm93ZHNlY3VyaXR5L29wZW5zaXBzLWxvZ3MKZGVzY3JpcHRpb246ICJQYXJzZSBIUCBvcGVuc2lwcyBsb2dzIgpub2RlczoKICAtIGdyb2s6CiAgICAgIHBhdHRlcm46ICcle1NZU0xPR1RJTUVTVEFNUDp0aW1lc3RhbXB9IFxbJXtOVU1CRVJ9XF0gJXtXT1JEOnNpcF9tZXRob2R9IHJlcXVlc3QgZnJvbSBJUCAle0lQT1JIT1NUOnNvdXJjZV9pcH0nCiAgICAgIGFwcGx5X29uOiBtZXNzYWdlCiAgICAgIHN0YXRpY3M6CiAgICAgICAgLSBtZXRhOiBzaXBfbWV0aG9kCiAgICAgICAgICBleHByZXNzaW9uOiBldnQuUGFyc2VkLnNpcF9tZXRob2QKICAtIGdyb2s6CiAgICAgIHBhdHRlcm46ICcle1NZU0xPR1RJTUVTVEFNUDp0aW1lc3RhbXB9IFxbJXtOVU1CRVJ9XF0gVW5rbm93biBTSVAgcmVxdWVzdCBmcm9tIElQICV7SVBPUkhPU1Q6c291cmNlX2lwfScKICAgICAgYXBwbHlfb246IG1lc3NhZ2UKICAgICAgc3RhdGljczoKICAgICAgICAtIG1ldGE6IHNpcF9tZXRob2QKICAgICAgICAgIHZhbHVlOiB1bmtub3duCiAgLSBncm9rOgogICAgICBwYXR0ZXJuOiAnJXtTWVNMT0dUSU1FU1RBTVA6dGltZXN0YW1wfSBcWyV7TlVNQkVSfVxdIEJhZCBTSVAgcmVxdWVzdCBmcm9tIElQICV7SVBPUkhPU1Q6c291cmNlX2lwfScKICAgICAgYXBwbHlfb246IG1lc3NhZ2UKICAgICAgc3RhdGljczoKICAgICAgICAtIG1ldGE6IHNpcF9tZXRob2QKICAgICAgICAgIHZhbHVlOiB1bmtub3duCnN0YXRpY3M6CiAgLSBtZXRhOiBzZXJ2aWNlCiAgICB2YWx1ZTogb3BlbnNpcHMKICAtIG1ldGE6IHNvdXJjZV9pcAogICAgZXhwcmVzc2lvbjogImV2dC5QYXJzZWQuc291cmNlX2lwIgogIC0gdGFyZ2V0OiBldnQuU3RyVGltZQogICAgZXhwcmVzc2lvbjogZXZ0LlBhcnNlZC50aW1lc3RhbXAK",
+   "description": "Parse HP opensips logs",
+   "author": "crowdsecurity",
+   "labels": null
+  },
   "crowdsecurity/pam-logs": {
    "path": "parsers/s01-parse/crowdsecurity/pam-logs.yaml",
    "stage": "s01-parse",
@@ -2164,6 +2179,24 @@
     "remediation": "true",
     "service": "http",
     "type": "scan"
+   }
+  },
+  "crowdsecurity/opensips-request": {
+   "path": "scenarios/crowdsecurity/opensips-request.yaml",
+   "version": "0.1",
+   "versions": {
+    "0.1": {
+     "digest": "de9ba025b26eedad9d996aeafe76446cec0d9a1b3f37e4942f0e4152f4e48cab",
+     "deprecated": false
+    }
+   },
+   "long_description": "VHJpZ2dlciBzY2VuYXJpbyBmb3IgcmVxdWVzdHMgbWFkZSB0byBPcGVuc2lwcy4KClRoaXMgc2NlbmFyaW8gaXMgbm90IGludGVuZGVkIHRvIGJlIHJ1biBvbiBhIHByb2R1Y3Rpb24gb3BlbnNpcHMsIGFzIGl0IHdpbGwgdHJpZ2dlciBmb3IgYW55IHJlcXVlc3RzIG1hZGUu",
+   "content": "IyBteXNxbCBicnV0ZWZvcmNlCnR5cGU6IHRyaWdnZXIKI2RlYnVnOiB0cnVlCm5hbWU6IGNyb3dkc2VjdXJpdHkvb3BlbnNpcHMtcmVxdWVzdApkZXNjcmlwdGlvbjogIlRyaWdnZXIgb24gYW55IHJlcXVlc3QgbWFkZSB0byBvcGVuc2lwcyIKZmlsdGVyOiBldnQuTWV0YS5zZXJ2aWNlID09ICdvcGVuc2lwcycKZ3JvdXBieTogZXZ0Lk1ldGEuc291cmNlX2lwCmJsYWNraG9sZTogNW0KbGFiZWxzOgogc2VydmljZTogb3BlbnNpcHMKIHJlbWVkaWF0aW9uOiB0cnVlCg==",
+   "description": "Trigger on any request made to opensips",
+   "author": "crowdsecurity",
+   "labels": {
+    "remediation": "true",
+    "service": "opensips"
    }
   },
   "crowdsecurity/pgsql-bf": {
