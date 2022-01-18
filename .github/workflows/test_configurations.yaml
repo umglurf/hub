@@ -10,7 +10,7 @@ on:
       - '.github/workflows/**.yaml'
       - '.github/workflows/**.yml'
   push:
-    branches: [ master ]
+    branches: [ master, nextcloud-parser-test-fix ]
     paths:
       - 'scenarios/**.yaml'
       - 'parsers/**.yaml'
@@ -78,4 +78,3 @@ jobs:
         label: Hub Scenarios
         message: ${{ env.SCENARIOS_COV }}
         color: ${{ env.SCENARIO_BADGE_COLOR }}
-
