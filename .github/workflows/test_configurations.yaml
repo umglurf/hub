@@ -51,7 +51,8 @@ jobs:
         sudo ./wizard.sh --unattended
     - name: run tests on last crowdsec tag
       run: |
-        cscli hubtest run --all --clean
+        #cscli hubtest run --all --clean
+        cscli hubtest run nextcloud-bf --clean
         echo "PARSERS_COV=$(cscli hubtest coverage --parsers --percent | cut -d '=' -f2)" >> $GITHUB_ENV
         echo "SCENARIOS_COV=$(cscli hubtest coverage --scenarios --percent | cut -d '=' -f2)" >> $GITHUB_ENV
         PARSERS_COV_NUMBER=$(cscli hubtest coverage --parsers --percent | cut -d '=' -f2 | tr -d '%' | tr -d '[[:space:]]')
